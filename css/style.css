@@ -1,0 +1,36 @@
+
+body {
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+input {
+    display: inline-block;
+    font-size: 0.75rem;
+    border: 1px solid #F5F5DC;
+    border-radius: 10px;
+    border-bottom: 3px solid #F5F5DC;
+    width: 500px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+.wrapper {
+    max-width: 900px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.gallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
